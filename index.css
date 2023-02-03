@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&display=swap");
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: #f4f5f7;
+  }
+  
+  #nam {
+    width: 800px;
+    height: 48px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+    border: #fff5e1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  #nams {
+    width: 800px;
+    height: 48px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+    border: #fff5e1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .contn {
+    height: 51px;
+    width: 800px;
+    left: 0;
+    right: 0;
+    top: calc(50% - 48px / 2);
+    border: #fff5e1;
+    background-color: #979493;
+  }
+  
+  .txt-area {
+    background: #fbf8f7;
+    width: 800px;
+    height: 114px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
+  }
+  .in-touch {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    width: 131px;
+    height: 48px;
+    padding: 12px;
+    background: #ff6b00;
+    position: absolute;
+    left: 30px;
+    top: 450px;
+    transition-duration: 3s;
+  }
+  
+  .in-touch:hover {
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }

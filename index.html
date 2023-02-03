@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact the professional Programmer</title>
+</head>
+
+<body>
+    <h1> IKOOTE FORM</h1>
+    <p> Please fill this form to continue</p>
+    <div class="last-m">
+        <form action="https://formspree.io/f/xzbqzrje" id="acts" method="post">
+            <fieldset class="inputs">
+                <div class="contn">
+                    <input type="text" placeholder="Full name" id="nams" oninput="press()" maxlength="30">
+                </div>
+                <div class="contn">
+                    <input type="email" class="adress" oninput="press()" placeholder="Email address" id="nam" required>
+                </div>
+                <span class="error"></span>
+
+                <textarea name="enter-t" id="enter-t" cols="30" rows="5" class="txt-area" oninput="press()"
+                    maxlength="500">Enter text here</textarea>
+            </fieldset>
+
+
+            <button type="submit" class="in-touch">Get in touch</button>
+        </form>
+
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
